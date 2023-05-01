@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-course"
+version = "0.1.0"
+description = ""
+authors = ["nusratullo2004 <122892486+nusratullo2004@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.1"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.12"
+psycopg2-binary = "^2.9.6"
+pydantic = "^1.10.7"
+python-dotenv = "^1.0.0"
+alembic = "^1.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
